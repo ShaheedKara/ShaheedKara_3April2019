@@ -1,0 +1,19 @@
+﻿@model ShaheedKara_ForGit.Models.WageViewModel
+
+@{
+    ViewBag.Title = "DisplayWage";
+}
+
+<h2>DisplayWage</h2>
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+    <p>@Html.DisplayFor(Model=>Model.display) </p>
+</div>
+<p>
+   
+    @Html.ActionLink("Back to List", "Index")
+</p>
